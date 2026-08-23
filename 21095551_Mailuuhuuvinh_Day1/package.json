@@ -1,0 +1,43 @@
+{
+  "name": "21095551_mailuuhuuvinh_day1",
+  "version": "1.0.0",
+  "description": "30 bai tap OOP TypeScript - Mai Luu Huu Vinh - 21095551",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node",
+    "bai01": "ts-node src/Bai01.ts",
+    "bai02": "ts-node src/Bai02.ts",
+    "bai03": "ts-node src/Bai03.ts",
+    "bai04": "ts-node src/Bai04.ts",
+    "bai05": "ts-node src/Bai05.ts",
+    "bai06": "ts-node src/Bai06.ts",
+    "bai07": "ts-node src/Bai07.ts",
+    "bai08": "ts-node src/Bai08.ts",
+    "bai09": "ts-node src/Bai09.ts",
+    "bai10": "ts-node src/Bai10.ts",
+    "bai11": "ts-node src/Bai11.ts",
+    "bai12": "ts-node src/Bai12.ts",
+    "bai13": "ts-node src/Bai13.ts",
+    "bai14": "ts-node src/Bai14.ts",
+    "bai15": "ts-node src/Bai15.ts",
+    "bai16": "ts-node src/Bai16.ts",
+    "bai17": "ts-node src/Bai17.ts",
+    "bai18": "ts-node src/Bai18.ts",
+    "bai19": "ts-node src/Bai19.ts",
+    "bai20": "ts-node src/Bai20.ts",
+    "bai21": "ts-node src/Bai21.ts",
+    "bai22": "ts-node src/Bai22.ts",
+    "bai23": "ts-node src/Bai23.ts",
+    "bai24": "ts-node src/Bai24.ts",
+    "bai25": "ts-node src/Bai25.ts",
+    "bai26": "ts-node src/Bai26.ts",
+    "bai27": "ts-node src/Bai27.ts",
+    "bai28": "ts-node src/Bai28.ts",
+    "bai29": "ts-node src/Bai29.ts",
+    "bai30": "ts-node src/Bai30.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2"
+  }
+}
