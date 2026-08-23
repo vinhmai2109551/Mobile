@@ -1,3 +1,4 @@
+// 22. Create a class Stack with push, pop, peek, isEmpty methods.
 // Bài 22: Tạo class Stack với các method push, pop, peek, isEmpty.
 
 // Stack (ngăn xếp) hoạt động theo nguyên tắc LIFO: Last In First Out

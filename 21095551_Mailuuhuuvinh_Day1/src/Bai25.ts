@@ -1,3 +1,4 @@
+// 25. Create a class Shape with a static method describe().
 // Bài 25: Tạo class Shape với một static method describe().
 
 class Shape {

@@ -1,3 +1,4 @@
+// 7. Write a class User with private property name and getter/setter.
 // Bài 7: Viết class User với thuộc tính name là private và có getter/setter.
 
 class User {

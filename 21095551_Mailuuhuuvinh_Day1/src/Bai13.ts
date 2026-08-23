@@ -1,3 +1,4 @@
+// 13. Create an abstract class Shape with method area(). Implement Square and Circle.
 // Bài 13: Tạo abstract class Shape với method area(). Hiện thực Square và Circle.
 
 // abstract class: không thể tạo trực tiếp đối tượng từ class này (không thể "new Shape()")

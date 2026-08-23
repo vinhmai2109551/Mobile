@@ -1,3 +1,4 @@
+// 18. Create a static class MathUtil with methods add(), subtract(), multiply(), divide().
 // Bài 18: Tạo static class MathUtil với các method add(), subtract(), multiply(), divide().
 
 // TypeScript không có "static class" riêng như C#, ta mô phỏng bằng cách

@@ -1,3 +1,4 @@
+// 30. Create a class School with list of Students and Teachers. Add method to display info.
 // Bài 30: Tạo class School với danh sách Student và Teacher. Thêm method hiển thị thông tin.
 
 class Person {

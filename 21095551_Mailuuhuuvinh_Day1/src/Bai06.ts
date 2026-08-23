@@ -1,3 +1,4 @@
+// 6. Create a class Book with attributes title, author, year.
 // Bài 6: Tạo class Book với thuộc tính title, author, year.
 
 class Book {

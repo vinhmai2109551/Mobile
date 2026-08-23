@@ -1,3 +1,4 @@
+// 15. Create a Library class that can store Book and User objects. Add method to add books.
 // Bài 15: Tạo class Library có thể lưu Book và User. Thêm method để thêm sách.
 
 class Book {

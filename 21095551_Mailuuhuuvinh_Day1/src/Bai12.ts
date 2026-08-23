@@ -1,3 +1,4 @@
+// 12. Define interfaces Flyable and Swimmable. Implement them in Bird and Fish classes.
 // Bài 12: Định nghĩa interface Flyable và Swimmable. Thực thi chúng trong class Bird và Fish.
 
 // Interface mô tả khả năng bay

@@ -1,3 +1,4 @@
+// 9. Define an interface Animal with name and method sound().
 // Bài 9: Định nghĩa interface Animal với name và method sound().
 
 // interface chỉ mô tả "hình dạng"/hợp đồng mà một object phải có, không chứa code hiện thực

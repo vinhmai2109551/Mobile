@@ -1,3 +1,4 @@
+// 14. Create a base class Employee. Extend Manager and Developer with specific methods.
 // Bài 14: Tạo base class Employee. Kế thừa Manager và Developer với method riêng.
 
 class Employee {

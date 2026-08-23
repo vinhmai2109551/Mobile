@@ -1,3 +1,4 @@
+// 24. Create an abstract class Appliance with method turnOn(). Implement Fan and AirConditioner.
 // Bài 24: Tạo abstract class Appliance với method turnOn(). Hiện thực Fan và AirConditioner.
 
 // abstract class định nghĩa bộ khung chung cho các thiết bị điện

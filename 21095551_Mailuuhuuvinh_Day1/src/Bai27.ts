@@ -1,3 +1,4 @@
+// 27. Create a class Teacher that extends Person. Add subject attribute and introduce method.
 // Bài 27: Tạo class Teacher kế thừa Person. Thêm thuộc tính subject và method introduce.
 
 class Person {

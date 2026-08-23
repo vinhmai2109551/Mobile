@@ -1,3 +1,4 @@
+// 21. Create a generic Repository class with methods add(), getAll().
 // Bài 21: Tạo generic class Repository với method add() và getAll().
 
 // Repository<T> mô phỏng một "kho lưu trữ" cho bất kỳ loại dữ liệu T nào (Product, User, Book,...)

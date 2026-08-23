@@ -1,3 +1,4 @@
+// 20. Write a Vehicle interface and implement it in Car and Bike classes.
 // Bài 20: Viết interface Vehicle và hiện thực trong class Car và Bike.
 
 // Interface mô tả hành vi chung mà mọi phương tiện phải có

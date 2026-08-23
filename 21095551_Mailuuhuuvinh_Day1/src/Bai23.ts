@@ -1,3 +1,4 @@
+// 23. Create an interface Payment with method pay(amount). Implement CashPayment and CardPayment.
 // Bài 23: Tạo interface Payment với method pay(amount). Hiện thực CashPayment và CardPayment.
 
 // Interface mô tả hành vi thanh toán chung, không quan tâm thanh toán bằng cách nào

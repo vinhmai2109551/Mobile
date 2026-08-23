@@ -1,3 +1,4 @@
+// 16. Create a generic class Box that can store any type of value.
 // Bài 16: Tạo generic class Box có thể chứa bất kỳ kiểu dữ liệu nào.
 
 // <T> là một "tham số kiểu dữ liệu" (generic type parameter), đóng vai trò như biến nhưng cho KIỂU DỮ LIỆU

@@ -1,3 +1,4 @@
+// 2. Write a class Student extending Person with an additional attribute grade. Add a method to display all info.
 // Bài 2: Viết class Student kế thừa Person, thêm thuộc tính grade. Thêm method hiển thị toàn bộ thông tin.
 
 class Person {

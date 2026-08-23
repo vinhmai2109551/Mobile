@@ -1,3 +1,4 @@
+// 28. Create a class Animal with protected method makeSound(). Extend Dog and Cat to override it.
 // Bài 28: Tạo class Animal với protected method makeSound(). Kế thừa Dog và Cat để ghi đè.
 
 class Animal {

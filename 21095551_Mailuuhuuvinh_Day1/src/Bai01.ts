@@ -1,3 +1,4 @@
+// 1. Create a class Person with attributes name and age. Write a method to display this information.
 // Bài 1: Tạo class Person với thuộc tính name và age. Viết method để hiển thị thông tin này.
 
 class Person {

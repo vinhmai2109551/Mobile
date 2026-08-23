@@ -1,3 +1,4 @@
+// 26. Create a class Order with list of products. Add method to calculate total price.
 // Bài 26: Tạo class Order với danh sách sản phẩm. Thêm method tính tổng tiền.
 
 class Product {

@@ -1,3 +1,4 @@
+// 4. Create a class Rectangle with width and height. Write a method to calculate area and perimeter.
 // Bài 4: Tạo class Rectangle với width và height. Viết method tính diện tích và chu vi.
 
 class Rectangle {

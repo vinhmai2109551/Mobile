@@ -1,3 +1,4 @@
+// 11. Create a base class Animal. Extend Dog and Cat classes with methods bark() and meow().
 // Bài 11: Tạo base class Animal. Kế thừa Dog và Cat với method bark() và meow().
 
 class Animal {

@@ -1,3 +1,4 @@
+// 17. Write a singleton Logger class that logs messages to console.
 // Bài 17: Viết class Logger theo mô hình Singleton, ghi log ra console.
 
 // Singleton: một mẫu thiết kế đảm bảo CHỈ CÓ DUY NHẤT MỘT đối tượng của class này

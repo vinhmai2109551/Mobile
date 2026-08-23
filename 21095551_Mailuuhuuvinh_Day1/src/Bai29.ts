@@ -1,3 +1,4 @@
+// 29. Create an interface Movable with method move(). Implement it in Car and Robot.
 // Bài 29: Tạo interface Movable với method move(). Hiện thực trong Car và Robot.
 
 // Interface mô tả hành vi di chuyển chung, không quan tâm là thực thể gì

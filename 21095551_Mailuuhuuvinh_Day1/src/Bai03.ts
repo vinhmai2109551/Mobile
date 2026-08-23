@@ -1,3 +1,4 @@
+// 3. Create a class Car with properties brand, model, year. Write a method to show car info.
 // Bài 3: Tạo class Car với thuộc tính brand, model, year. Viết method để hiển thị thông tin xe.
 
 class Car {

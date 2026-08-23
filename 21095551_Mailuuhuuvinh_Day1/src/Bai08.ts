@@ -1,3 +1,4 @@
+// 8. Create a Product class with name, price. Create an array of products and filter products with price > 100.
 // Bài 8: Tạo class Product với name, price. Tạo mảng các product và lọc sản phẩm có price > 100.
 
 class Product {
