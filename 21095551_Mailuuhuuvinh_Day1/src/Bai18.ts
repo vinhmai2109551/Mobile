@@ -16,13 +16,13 @@ class MathUtil {
   static multiply(a: number, b: number): number {
     return a * b;
   }
-
   // Method chia, cần kiểm tra chia cho 0
   static divide(a: number, b: number): number {
     // Nếu số chia bằng 0 thì ném ra lỗi (throw Error) vì không thể chia cho 0
     if (b === 0) {
       throw new Error("Không thể chia cho 0");
     }
+    else 
     return a / b;
   }
 }

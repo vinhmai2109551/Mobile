@@ -38,7 +38,7 @@ class Stack<T> {
 
 // Tạo stack chứa số nguyên
 const stack = new Stack<number>();
-console.log(`Stack rỗng? ${stack.isEmpty()}`);
+// console.log(`Stack rỗng? ${stack.isEmpty()}`);
 
 // Thêm lần lượt 3 phần tử vào stack
 stack.push(10);

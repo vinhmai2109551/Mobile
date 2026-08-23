@@ -50,6 +50,7 @@ fan1.turnOff(); // Method dùng chung từ lớp cha Appliance
 const ac1 = new AirConditioner("Máy lạnh phòng khách", 25);
 ac1.turnOn();
 ac1.turnOff();
+ac1.turnOn(); // Bật lại để kiểm tra nhiệt độ
 
 // export {} ở cuối file: biến file này thành một "module" riêng biệt trong TypeScript,
 // giúp các class/interface trùng tên ở các file khác nhau không bị xung đột phạm vi toàn cục

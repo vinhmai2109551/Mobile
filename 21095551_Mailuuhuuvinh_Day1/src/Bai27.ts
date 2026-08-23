@@ -35,7 +35,7 @@ class Teacher extends Person {
 }
 
 // Tạo đối tượng Teacher
-const teacher1 = new Teacher("Mai Lưu Hữu Vinh", 22, "Lập trình TypeScript");
+const teacher1 = new Teacher("Mai Lưu Hữu Vinh", 22, "English");
 // Gọi method kế thừa từ Person
 teacher1.displayInfo();
 // Gọi method riêng của Teacher

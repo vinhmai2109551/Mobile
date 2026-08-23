@@ -78,7 +78,7 @@ class School {
 const school1 = new School("THPT Nguyễn Trãi");
 
 // Thêm giáo viên vào trường
-school1.addTeacher(new Teacher("Mai Lưu Hữu Vinh", 22, "Lập trình TypeScript"));
+school1.addTeacher(new Teacher("Mai Lưu Hữu Vinh", 22, "English"));
 school1.addTeacher(new Teacher("Phạm Văn H", 40, "Văn"));
 
 // Thêm học sinh vào trường
