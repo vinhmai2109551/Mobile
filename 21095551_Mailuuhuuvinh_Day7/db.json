@@ -1,0 +1,151 @@
+{
+  "categories": [
+    { "id": 1, "name": "Văn học", "emoji": "📖" },
+    { "id": 2, "name": "Kinh tế", "emoji": "💼" },
+    { "id": 3, "name": "Lập trình", "emoji": "💻" },
+    { "id": 4, "name": "Thiếu nhi", "emoji": "🧸" },
+    { "id": 5, "name": "Khoa học", "emoji": "🔬" }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Dế Mèn Phiêu Lưu Ký",
+      "author": "Tô Hoài",
+      "price": 65000,
+      "categoryId": 4,
+      "stock": 12,
+      "description": "Hành trình phiêu lưu của chú Dế Mèn qua thế giới loài vật.",
+      "emoji": "🦗",
+      "color": "#16A34A"
+    },
+    {
+      "id": 2,
+      "title": "Nhà Giả Kim",
+      "author": "Paulo Coelho",
+      "price": 79000,
+      "categoryId": 1,
+      "stock": 8,
+      "description": "Câu chuyện về chàng chăn cừu Santiago đi tìm kho báu và ý nghĩa cuộc đời.",
+      "emoji": "🌵",
+      "color": "#F59E0B"
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 389000,
+      "categoryId": 3,
+      "stock": 5,
+      "description": "Nghệ thuật viết mã sạch, dễ đọc và dễ bảo trì.",
+      "emoji": "🧹",
+      "color": "#3B3FD8"
+    },
+    {
+      "id": 4,
+      "title": "Đắc Nhân Tâm",
+      "author": "Dale Carnegie",
+      "price": 86000,
+      "categoryId": 2,
+      "stock": 15,
+      "description": "Những nguyên tắc giao tiếp để chinh phục lòng người.",
+      "emoji": "🤝",
+      "color": "#1E2A5E"
+    },
+    {
+      "id": 5,
+      "title": "Lassie Trở Về",
+      "author": "Eric Knight",
+      "price": 95000,
+      "categoryId": 4,
+      "stock": 10,
+      "description": "Chú chó Lassie vượt hàng trăm dặm để trở về bên cậu chủ nhỏ.",
+      "emoji": "🐕",
+      "color": "#64748B"
+    },
+    {
+      "id": 6,
+      "title": "TypeScript Handbook",
+      "author": "Anders H.",
+      "price": 250000,
+      "categoryId": 3,
+      "stock": 10,
+      "description": "Sổ tay TypeScript từ kiểu cơ bản đến generics và utility types.",
+      "emoji": "🔷",
+      "color": "#00B8D9"
+    },
+    {
+      "id": 7,
+      "title": "React Native in Action",
+      "author": "Nader Dabit",
+      "price": 320000,
+      "categoryId": 3,
+      "stock": 6,
+      "description": "Xây dựng ứng dụng di động đa nền tảng bằng React Native.",
+      "emoji": "📱",
+      "color": "#2563EB"
+    },
+    {
+      "id": 8,
+      "title": "Sapiens: Lược Sử Loài Người",
+      "author": "Yuval Noah Harari",
+      "price": 189000,
+      "categoryId": 5,
+      "stock": 9,
+      "description": "Lịch sử loài người từ thời săn bắt hái lượm đến kỷ nguyên công nghệ.",
+      "emoji": "🧬",
+      "color": "#7C3AED"
+    },
+    {
+      "id": 9,
+      "title": "Vũ Trụ Trong Vỏ Hạt Dẻ",
+      "author": "Stephen Hawking",
+      "price": 135000,
+      "categoryId": 5,
+      "stock": 7,
+      "description": "Khám phá vũ trụ, thời gian và các lỗ đen bằng ngôn ngữ dễ hiểu.",
+      "emoji": "🌌",
+      "color": "#1E3A8A"
+    },
+    {
+      "id": 10,
+      "title": "Cha Giàu Cha Nghèo",
+      "author": "Robert T. Kiyosaki",
+      "price": 110000,
+      "categoryId": 2,
+      "stock": 20,
+      "description": "Bài học tài chính cá nhân từ hai người cha với hai tư duy khác nhau.",
+      "emoji": "💰",
+      "color": "#0F766E"
+    },
+    {
+      "id": 11,
+      "title": "Tuổi Thơ Dữ Dội",
+      "author": "Phùng Quán",
+      "price": 120000,
+      "categoryId": 1,
+      "stock": 10,
+      "description": "Những thiếu niên trinh sát dũng cảm trong kháng chiến chống Pháp.",
+      "emoji": "🔥",
+      "color": "#DC2626"
+    },
+    {
+      "id": 12,
+      "title": "Hoàng Tử Bé",
+      "author": "Antoine de Saint-Exupéry",
+      "price": 72000,
+      "categoryId": 4,
+      "stock": 14,
+      "description": "Cuộc gặp gỡ giữa phi công lạc giữa sa mạc và hoàng tử đến từ tiểu hành tinh.",
+      "emoji": "🌹",
+      "color": "#DB2777"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Học viên Demo",
+      "email": "demo@bookstore.vn",
+      "password": "123456"
+    }
+  ]
+}
