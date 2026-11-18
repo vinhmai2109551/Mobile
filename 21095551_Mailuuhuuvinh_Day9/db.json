@@ -165,6 +165,7 @@
       "id": 1,
       "name": "Học viên Demo",
       "email": "demo@bookstore.vn",
+      "phone": "0901234567",
       "password": "123456"
     },
     {
@@ -174,16 +175,189 @@
       "password": "123456"
     },
     {
-      "name": "Mai",
+      "name": "ZIn ZIn",
       "email": "vinh123@gmail.com",
       "password": "111111",
-      "id": 3
+      "id": 3,
+      "phone": "0123456789"
     },
     {
       "name": "vinh",
       "email": "vinh1233@gmail.com",
       "password": "111111",
       "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "bookId": 1,
+          "title": "Dế Mèn Phiêu Lưu Ký",
+          "price": 65000,
+          "quantity": 1
+        }
+      ],
+      "total": 65000,
+      "address": {
+        "name": "Học viên Demo",
+        "phone": "0901234567",
+        "address": "12 Nguyễn Văn Bảo, Gò Vấp, TP.HCM"
+      },
+      "paymentMethod": "cod",
+      "status": "completed",
+      "createdAt": "2026-10-20T08:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "items": [
+        {
+          "bookId": 3,
+          "title": "Clean Code",
+          "price": 189000,
+          "quantity": 1
+        },
+        {
+          "bookId": 2,
+          "title": "Nhà Giả Kim",
+          "price": 79000,
+          "quantity": 1
+        }
+      ],
+      "total": 268000,
+      "address": {
+        "name": "Học viên Demo",
+        "phone": "0901234567",
+        "address": "45 Lê Văn Việt, Thủ Đức, TP.HCM"
+      },
+      "paymentMethod": "bank",
+      "status": "shipping",
+      "createdAt": "2026-10-22T15:05:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "items": [
+        {
+          "bookId": 7,
+          "title": "Hoàng Tử Bé",
+          "price": 72000,
+          "quantity": 2
+        }
+      ],
+      "total": 144000,
+      "address": {
+        "name": "Học viên Demo",
+        "phone": "0901234567",
+        "address": "99 Quang Trung, Gò Vấp, TP.HCM"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2026-10-24T10:15:00.000Z"
+    },
+    {
+      "userId": 3,
+      "items": [
+        {
+          "bookId": 1,
+          "title": "Dế Mèn Phiêu Lưu Ký",
+          "price": 65000,
+          "quantity": 1
+        }
+      ],
+      "total": 65000,
+      "address": {
+        "name": "Mai Lưu Hữu Vinh",
+        "phone": "0123456321",
+        "address": "123"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2026-11-18T12:21:12.732Z",
+      "id": 4
+    },
+    {
+      "userId": 3,
+      "items": [
+        {
+          "bookId": 1,
+          "title": "Dế Mèn Phiêu Lưu Ký",
+          "price": 65000,
+          "quantity": 1
+        }
+      ],
+      "total": 65000,
+      "address": {
+        "name": "ZIn ZIn",
+        "phone": "0123456789",
+        "address": "d"
+      },
+      "paymentMethod": "cod",
+      "status": "pending",
+      "createdAt": "2026-11-18T12:28:54.289Z",
+      "id": 5
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Đơn hàng đang giao",
+      "body": "Đơn #2 của bạn đã được giao cho đơn vị vận chuyển.",
+      "createdAt": "2026-10-22T16:00:00.000Z",
+      "read": false,
+      "target": {
+        "screen": "Orders"
+      }
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Có thể bạn sẽ thích",
+      "body": "Xem ngay cuốn Clean Code trong danh mục Lập trình.",
+      "createdAt": "2026-10-21T09:30:00.000Z",
+      "read": true,
+      "target": {
+        "screen": "BookDetail",
+        "bookId": 3
+      }
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Đơn hàng hoàn tất",
+      "body": "Đơn #1 đã được giao thành công.",
+      "createdAt": "2026-10-20T12:30:00.000Z",
+      "read": false,
+      "target": {
+        "screen": "Orders"
+      }
+    },
+    {
+      "id": 4,
+      "userId": 3,
+      "title": "Đặt hàng thành công",
+      "body": "Đơn hàng #4 đã được ghi nhận. Cảm ơn bạn đã mua sắm tại BookStore.",
+      "createdAt": "2026-11-18T19:21:12.732Z",
+      "read": true,
+      "target": {
+        "screen": "Orders"
+      }
+    },
+    {
+      "id": 5,
+      "userId": 3,
+      "title": "Gợi ý sách cho bạn",
+      "body": "Hoàng Tử Bé đang chờ bạn khám phá.",
+      "createdAt": "2026-11-18T19:15:00.000Z",
+      "read": false,
+      "target": {
+        "screen": "BookDetail",
+        "bookId": 7
+      }
     }
   ],
   "reviews": [
@@ -218,10 +392,19 @@
       "bookId": 7,
       "userId": 3,
       "userName": "Mai",
-      "rating": 5,
-      "comment": "sa",
+        "rating": 5,
+        "comment": "sa",
       "createdAt": "2026-11-08T06:36:45.920Z",
       "id": 4
+    },
+    {
+      "bookId": 1,
+      "userId": 3,
+      "userName": "ZIn ZIn",
+      "rating": 5,
+      "comment": "OKe hay",
+      "createdAt": "2026-11-18T12:26:02.081Z",
+      "id": 5
     }
   ]
 }
